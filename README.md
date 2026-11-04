@@ -1,6 +1,6 @@
 # AttendEase – 75% Attendance Planner
 
-A small web app built for the **Computational Thinking as an Engineering Mindset** group activity.
+A small web app built for the **Computational Thinking as an Engineering Mindset** individual activity (IPS, Jain Deemed-to-be University).
 
 **Live site:** https://computertech99.github.io/attendease/
 **Demo video:** https://computertech99.github.io/attendease/assets/demo.mp4
@@ -20,6 +20,9 @@ Colleges require students to keep at least 75% attendance in every subject. Stud
 - Status per subject: Safe, Borderline or At risk, with a progress bar and a marker at the target
 - "What if I miss N more?" preview before skipping a class
 - Overall attendance and counts of safe and at-risk subjects
+- "+ Attended today" / "+ Missed today" buttons to update a subject after each class
+- Status legend, plus a red alert listing every subject below the target
+- "Copy summary" copies all subjects as text to send to a mentor or parents
 - Input checks (empty name, negative numbers, attended greater than held)
 - Data saved in the browser (localStorage); dark mode; works on phones
 
